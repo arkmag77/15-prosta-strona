@@ -13,48 +13,50 @@
        <a href="#skills">Skills</a> 
        <a href="#portfolio">Portfolio</a> 
        <a href="#contact">Contact</a>
-    </nav>
+   </nav>
     <!-- section#about>h1{Nagłówek sekcji About us}+p>Lorem -->
     <section id="about">
         <h1>About us</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis expedita quae natus at vero. Ex ullam harum laudantium impedit quasi nam eos earum, nesciunt quas numquam quaerat excepturi debitis praesentium.</p>
     </section>
-    <!-- section#skills>h1{Skills}+(div.skill>h2{Div 1}+p>Lorem)+(div.skill>h2{Div 2}+p>Lorem)+(div.skill>h2{Div 3}+p>Lorem)+(div.skill>h2{Div 4}+p>Lorem) -->
+    <!-- section#skills>h2{Skills}+(div.skill>h3{Div 1}+p>Lorem)+(div.skill>h3{Div 2}+p>Lorem)+(div.skill>h3{Div 3}+p>Lorem)+(div.skill>h3{Div 4}+p>Lorem) -->
     <section id="skills">
-        <h1>Skills</h1>
+        <h2>Skills</h2>
         <div class="skill">
-            <h2>Div 1</h2>
+            <h3>Div 1</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt autem voluptas consequatur odit dolore molestiae porro possimus necessitatibus quis quisquam quae officia rerum facere dicta, sint iure recusandae provident nihil.</p>
         </div>
         <div class="skill">
-            <h2>Div 2</h2>
+            <h3>Div 2</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quisquam nemo nihil quod vero voluptate accusantium exercitationem commodi porro ex vitae veniam reiciendis sapiente amet ipsum, in ipsam corrupti animi.</p>
         </div>
         <div class="skill">
-            <h2>Div 3</h2>
+            <h3>Div 3</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dicta optio aliquam totam quia similique necessitatibus facilis deleniti, perspiciatis voluptatum quaerat cupiditate sed dignissimos ad voluptatibus est odio blanditiis nesciunt?</p>
         </div>
         <div class="skill">
-            <h2>Div 4</h2>
+            <h3>Div 4</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo architecto sit quibusdam inventore, accusamus esse. Repellendus eum similique optio magnam in laudantium harum non, ut fugiat eos consectetur, sed odio.</p>
         </div>
     </section>
-    <!-- section#portfolio>h1{Portfolio}+(div.portfolio-item>img)+(div.portfolio-item>img)+(div.portfolio-item>img) -->
+    <!-- section#portfolio>h2{Portfolio}+(div.portfolio-item>img)+(div.portfolio-item>img)+(div.portfolio-item>img) -->
     <section id="portfolio">
-        <h1>Portfolio</h1>
+        <h2>Portfolio</h2>
         <div class="portfolio-item"><img src="html5-struktura.jpg" alt="html5-struktura"></div>
+
         <div class="portfolio-item"><img src="html5-struktura.jpg" alt="html5-struktura"></div>
+        
         <div class="portfolio-item"><img src="html5-struktura.jpg" alt="html5-struktura"></div>
     </section>
-    <!-- section#contact>h1{Arek Błędkowski}+adress{Kazimierzówka 32L, 21-040 Świdnik}+form>(p>Label{Imię}+Input)+(p>Label{Temat}+Input)+(p>textarea)+(p>input) -->
+    <!-- section#contact>h2{Arek Błędkowski}+adress{Kazimierzówka 32L, 21-040 Świdnik}+form>(p>Label{Imię}+Input)+(p>Label{Temat}+Input)+(p>textarea)+(p>input) -->
     <section id="contact">
-        <h1>Arek Błędkowski</h1>
-        <adress>Kazimierzówka 32L, 21-040 Świdnik</adress>
+        <h2>Arek Błędkowski</h2>
+        <address>Kazimierzówka 32L, 21-040 Świdnik</address>
         <form action="">
-            <p><label for="imię">Imię</label><input type="text" name="imię" required /></p>
-            <p><label for="temat">Temat</label><input type="text" name="temat"  size=50 required /></p>
-            <p><textarea name="wiadomość" rows="8" cols="50" required></textarea></p>
-            <p><input type="submit" value="Wyślij"/></p>
+            <div><label for="imie">Imię</label><input type="text" id="imie" required /></div>
+            <div><label for="temat">Temat</label><input type="text" id="temat"  size=50 required /></div>
+            <div><textarea name="wiadomość" rows="8" cols="50" required></textarea></div>
+            <div><input type="submit" value="Wyślij"/></div>
         </form>
     </section>
 </body>
